@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LGBT Jobs</title>
+<link href="styles/styles.css" type="text/css" rel="stylesheet" >
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,600,300' rel='stylesheet' type='text/css'>
+<link href="fontello.css" rel="stylesheet" type="text/css">
+<link href="fontello-embedded.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" type="image/gif" href="img/favicon.gif">
+</head>
+
+<body>
+<div id="top-links"> <a href="post_a_job.html">Post a Job</a> <a href="resume.html" class="rez">Resume Help</a> </div>
+<div class="container">
+  <div id="home"> <!--<img src="http://placehold.it/700x75" alt="Brand Logo" />--><a href="index.html"><img src="img/logo.png" alt="logo/home"></a></div>
+</div>
+<div class="colorbar-search">
+<div class="search-desk">
+  <form action="#" id="search" name="search" method="post">
+    <label>what</label>
+    <input list="keywords" placeholder="job title, keywords, or company">
+    <datalist id="keywords">
+      <option value="Graphic Design">
+      <option value="Design">
+      <option value="Anatomy">
+      <option value="Web Design">
+      <option value="Web Development"> 
+    </datalist>
+    <label>location</label>
+    <input list="location" placeholder="city, state, or zip">
+    <datalist id="location">
+      <option value="San Francisco">
+      <option value="California">
+      <option value="New York"> 
+    </datalist>
+   <input id="findJob" type="button" name="findJob" value="Find Job"/>
+  </form>
+  </div>
+</div>
+<div class="containerInner">
+  
+  <h3>About LgbtSafe</h3>
+  
+  <div class="aboutLeft">
+  	<section class="top">
+    	<h4 class="underline">Job Seekers</h4>
+        <p>
+        lgbtsafe is a job search engine that finds job listings from company career pages, other job boards, newspapers and associations. With one search, we help you find the job with your name on it.
+        </p>
+    </section>
+    <section class="bottom">
+    	<h4 class="underline">Company Info</h4>
+        <p>
+        We've been building and operating award-winning job boards since 1997 — here's a little company history. You may also wish to review our privacy policy or terms of service.
+        </p>
+    </section>
+  </div>
+  
+  <div class="aboutRight">
+  	<section class="top">
+    	<h4 class="underline">Employers and Advertisers</h4>
+        <p>
+        Our large network of partners can help you get your job posted or you can <a href="post_a_job.html">post your job</a> directly in just a minute or two or login to manage previously posted jobs.        </p>
+    </section>
+    <section class="bottom">
+    	<h4 class="underline">Publishers</h4>
+        <p>
+        You can add our jobs to your website or blog. Just link to us! You may also want to check our job seeker resources page to see if your site is a good fit...
+      </p>
+    </section>
+  </div>
+  
+  <div id="stakeholders"> <img src="img/sflgbtLogo.jpg" alt="Stakeholder Logo for SF LGBT Community Center"> <img src="img/CenterLink-logo.jpg" alt="Stakeholder Logo for CenterLink"> </div>
+</div>
+<footer id="footer"> <a href="#">About</a> | <a href="post_a_job.html">Post Jobs</a> | <a href="resume.html">Resume Help</a> | <a href="#">Contact Us</a>
+  <p>&copy; 2014 | Thomas Wood | tadamwood.com | All Rights Reserved</p>
+</footer>
+</div>
+
+<script>
+function loadIndex() {
+    window.location.href = "result.html";
+}
+
+document.getElementById("findJob").addEventListener("click", loadIndex, false);
+</script>
+</body>
+</html>

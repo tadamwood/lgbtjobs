@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LGBT Jobs</title>
+<link href="styles/styles.css" type="text/css" rel="stylesheet" >
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,600,300' rel='stylesheet' type='text/css'>
+<link href="fontello.css" rel="stylesheet" type="text/css">
+<link href="fontello-embedded.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="script/imgZoom.js"></script>
+<link rel="icon" type="image/gif" href="img/favicon.gif">
+</head>
+
+<body>
+<div id="top-links"> <a href="post_a_job.html">Post a Job</a> <a href="resume.html" class="rez">Resume Help</a> </div>
+<div class="container">
+  <div id="home"> <!--<img src="http://placehold.it/700x75" alt="Brand Logo" />--><a href="index.html"><img src="img/logo.png" alt="logo/home"></a></div>
+</div>
+<div class="colorbar-search">
+<div class="search-desk">
+  <form action="#" id="search" name="search" method="post">
+    <label>what</label>
+    <input list="keywords" placeholder="job title, keywords, or company">
+    <datalist id="keywords">
+      <option value="Graphic Design">
+      <option value="Design">
+      <option value="Anatomy">
+      <option value="Web Design">
+      <option value="Web Development"> 
+    </datalist>
+    <label>location</label>
+    <input list="location" placeholder="city, state, or zip">
+    <datalist id="location">
+      <option value="San Francisco">
+      <option value="California">
+      <option value="New York"> 
+    </datalist>
+   <input id="findJob" type="button" name="findJob" value="Find Job"/>
+  </form>
+  </div>
+</div>
+<div class="containerInner">
+  
+  <h3>Need help building your resume? Check out some examples<span class="icon-right-open"></span></h3>
+  
+  <div class="resume-examples">
+  	<a href="img//res_ex_01.png" target="_blank"><img src="img/res_ex_01.png" alt="Example of a good resume"></a>
+    <a href="img//rez_ex_02.jpg" target="_blank"><img src="img/rez_ex_02.jpg" height="852" width="602" alt="Example of a good resume"></a>
+    <a href="img//rez_ex_03.jpg" target="_blank"><img src="img/rez_ex_03.jpg" height="776" width="600" alt="Example of a good resume"></a>
+    <a href="img//res_ex_04.png" target="_blank"><img src="img/res_ex_04.png" alt="Example of a good resume"></a>
+    <p class="more"><a href="#">more...</a></p>
+  </div>
+  
+  <div class="more-resume">
+  	<h3>Need some help building your resume? Check out these resources.</h3>
+    <a href="http://www.carecareers.com.au/page/writing-a-good-resume" target="_blank"><p>Care Careers</p></a>
+    <a href="http://internships.about.com/od/resumetipssamples/ht/ResumeTips.htm" target="_blank"><p>About Careers</p></a>
+    <a href="http://wsd.dli.mt.gov/local/missoula/resumetips.asp" target="_blank"><p>Missoula Job Service</p></a>
+  </div>
+  
+  <div id="stakeholders"> <img src="img/sflgbtLogo.jpg" alt="Stakeholder Logo for SF LGBT Community Center"> <img src="img/CenterLink-logo.jpg" alt="Stakeholder Logo for CenterLink"> </div>
+</div>
+<footer id="footer"> <a href="about.html">About</a> | <a href="post_a_job.html">Post Jobs</a> | <a href="resume.html">Resume Help</a> | <a href="#">Contact Us</a>
+  <p>&copy; 2014 | Thomas Wood | tadamwood.com | All Rights Reserved</p>
+</footer>
+</div>
+
+<script>
+function loadIndex() {
+    window.location.href = "result.html";
+}
+
+document.getElementById("findJob").addEventListener("click", loadIndex, false);
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LGBT Jobs</title>
+<link href="styles/styles.css" type="text/css" rel="stylesheet" >
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,600,300' rel='stylesheet' type='text/css'>
+
+<link rel="icon" type="image/gif" href="img/favicon.gif">
+</head>
+
+<body>
+<div id="top-links"> <a href="post_a_job.html">Post a Job</a> <a href="resume.html" class="rez">Resume Help</a> </div>
+<div class="container">
+  <div id="home"> <!--<img src="http://placehold.it/700x75" alt="Brand Logo" />--><a href="index.html"><img src="img/logo.png" alt="logo/home"></a></div>
+</div>
+<div class="colorbar-search">
+<div class="search-desk">
+  <form action="#" id="search" name="search" method="post">
+    <label>what</label>
+    <input list="keywords" placeholder="job title, keywords, or company">
+    <datalist id="keywords">
+      <option value="Graphic Design">
+      <option value="Design">
+      <option value="Anatomy">
+      <option value="Web Design">
+      <option value="Web Development"> 
+    </datalist>
+    <label>location</label>
+    <input list="location" placeholder="city, state, or zip">
+    <datalist id="location">
+      <option value="San Francisco">
+      <option value="California">
+      <option value="New York"> 
+    </datalist>
+   <input id="findJob" type="button" name="findJob" value="Find Job"/>
+  </form>
+  </div>
+  <!--<div class="search-mobile">
+  <form action="#" id="search" name="search" method="post">
+    <label>what</label>
+    <input list="keywords" placeholder="job title, keywords, or company">
+    <datalist id="keywords">
+      <option value="Graphic Design">
+      <option value="Design">
+      <option value="Anatomy">
+      <option value="Web Design">
+      <option value="Web Development"> 
+    </datalist>
+    <br/>
+    <label>location</label>
+    <input list="location" placeholder="city, state, or zip">
+    <datalist id="location">
+      <option value="San Francisco">
+      <option value="California">
+      <option value="New York"> 
+    </datalist>
+    <br />
+    <input id="findJobmob" type="submit" name="findJob" value="Find Job"/>
+  </form>
+  </div>-->
+</div>
+<div class="container">
+  <h1 id="tagline">We provide a service where you can be sure that you'll be safe</h1>
+  <div id="recommended">
+    <div id="popular-searches">
+      <h4>Popular Searches: </h4>
+      <div class="list-left">
+        <ul>
+          <li><a href="#">allied world</a></li>
+          <li><a href="#">custom service</a></li>
+          <li><a href="#">hiv educator</a></li>
+          <li><a href="#">lgbt</a></li>
+          <li><a href="#">allied worl assurance</a></li>
+        </ul>
+      </div>
+      <div class="list-right">
+        <ul>
+          <li><a href="#">diversity</a></li>
+          <li><a href="#">human resources</a></li>
+          <li><a href="#">non profit</a></li>
+          <li><a href="#">sales</a></li>
+          <li><a href="#">peoplesoft</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="top-employers">
+      <h4>Top Employers: </h4>
+      <div class="list-left">
+        <ul>
+          <li><a href="#">bank of america</a></li>
+          <li><a href="#">dell</a></li>
+          <li><a href="#">genesis healthcare</a></li>
+          <li><a href="#">modis</a></li>
+          <li><a href="#">superior group</a></li>
+        </ul>
+      </div>
+      <div class="list-right">
+        <ul>
+          <li><a href="#">cybercoders</a></li>
+          <li><a href="#">fresenius medical care</a></li>
+          <li><a href="#">hcr manorcare</a></li>
+          <li><a href="#">sears</a></li>
+          <li><a href="#">verizon</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="stakeholders"> <img src="img/sflgbtLogo.jpg" alt="Stakeholder Logo for SF LGBT Community Center"> <img src="img/CenterLink-logo.jpg" alt="Stakeholder Logo for CenterLink"> </div>
+</div>
+<footer id="footer"> <a href="about.html">About</a> | <a href="post_a_job.html">Post Jobs</a> | <a href="resume.html">Resume Help</a>
+  <p>&copy; 2014 | Thomas Wood | tadamwood.com | All Rights Reserved</p>
+</footer>
+</div>
+
+<script>
+function loadIndex() {
+    window.location.href = "result.html";
+}
+
+document.getElementById("findJob").addEventListener("click", loadIndex, false);
+</script>
+</body>
+</html>
